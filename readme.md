@@ -1,5 +1,11 @@
 # KG-RAG-V2 Benchmark Evaluation
 
+## Links
+- apk: https://drive.google.com/drive/folders/1It1hX83IGIaGP12tV_kMwHVh-s3gVUMu?usp=sharing
+- intention: https://drive.google.com/drive/folders/1ozPXt2nbKEPCQ8Zo4Hdb-WtsMawN0waI?usp=sharing
+
+## Notes
+- android app 通过apk安装，harmony/ios直接在应用市场安装就行
 
 ## Harmony
 #### Hdc
@@ -17,7 +23,7 @@ Harmony涉及hdc的安装（作用与adb一致）
 
 ## Android
 #### Apk
-包含所有需要的android的apk安装包
+包含所有需要的android app的apk安装包
 https://drive.google.com/drive/folders/1p-mkBJfkHjhZYqziaU5YYDhSoGCqHnRJ?usp=sharing
 
 在虚拟机上，在terminal可通过adb install /Users/name/Downloads/xxx.apk (具体apk路径) 直接安装
