@@ -3,6 +3,7 @@
 ## Links
 - apk: https://drive.google.com/drive/folders/1It1hX83IGIaGP12tV_kMwHVh-s3gVUMu?usp=sharing
 - intention: https://drive.google.com/drive/folders/1ozPXt2nbKEPCQ8Zo4Hdb-WtsMawN0waI?usp=sharing
+- android_automation: https://github.com/xudonglai0426/android_automation
 
 ## Notes
 - android app 通过apk安装，harmony/ios直接在应用市场安装就行
