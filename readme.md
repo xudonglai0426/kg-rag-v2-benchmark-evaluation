@@ -15,7 +15,7 @@
 #### Examples:
 intention: 搜索并播放Taylor Swift的Love Story，并查看歌曲的详细信息
 
-app: qq 音乐
+app: 酷狗 音乐
 ```json（input）
 {
     "intent_1": {
