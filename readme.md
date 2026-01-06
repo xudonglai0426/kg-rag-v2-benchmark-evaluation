@@ -11,6 +11,8 @@
 #### Output: 
 - 每一意图执行的app截图序列以及相关信息
 
+#### Examples:
+intention: 搜索并播放Taylor Swift的Love Story，并查看歌曲的详细信息
 <div align="center">
     <img src="traj.png"/>
 </div>
@@ -18,6 +20,7 @@
 
 ## Notes
 - android app 通过apk安装，harmony/ios直接在应用市场安装就行
+- android/harmony 可以通过android automation自动化执行，ios需要人工操作手机
 
 ## Harmony
 #### Hdc
