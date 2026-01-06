@@ -14,6 +14,22 @@
 
 #### Examples:
 intention: 搜索并播放Taylor Swift的Love Story，并查看歌曲的详细信息
+
+app: qq 音乐
+```json（input）
+{
+    "intent_1": {
+        "intention": "搜索并播放Taylor Swift的Love Story，并查看歌曲的详细信息",
+        "action_desp_list": ["点击搜索框", "输入Taylor Swift Love Story", "点击搜索按钮", "点击搜索结果中第一个歌曲",
+      "向左滑动", "向左滑动"],
+        "checkpoint_list": ["搜索结果页面", "歌曲播放页面", "歌曲详情信息页"],
+        "bounding_box_list": [[44, 272, 844, 357], [], [951, 160, 1050, 214], [174, 996, 1058, 1121], [], []],
+        "image_path_list": ["intent_1/step_001.png", "intent_1/step_002.png", "intent_1/step_003.png",
+        "intent_1/step_004.png", "intent_1/step_005.png", "intent_1/step_006.png", "intent_1/step_007.png"]
+    },
+    "intent_2": ...
+}
+```
 <div align="center">
     <img src="traj.png"/>
 </div>
