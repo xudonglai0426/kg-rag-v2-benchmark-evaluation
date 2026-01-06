@@ -5,6 +5,17 @@
 - intention: https://drive.google.com/drive/folders/1ozPXt2nbKEPCQ8Zo4Hdb-WtsMawN0waI?usp=sharing
 - android_automation: https://github.com/xudonglai0426/android_automation
 
+#### Input: 
+一批意图以及一个常用的app
+
+#### Output: 
+- 每一意图执行的app截图序列以及相关信息
+
+<div align="center">
+    <img src="traj.png"/>
+</div>
+
+
 ## Notes
 - android app 通过apk安装，harmony/ios直接在应用市场安装就行
 
