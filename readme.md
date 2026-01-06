@@ -7,7 +7,7 @@
 
 ## Inputs/Outputs:
 #### Input: 
-一批意图以及一个常用的app
+- 一批意图以及一个常用的app
 
 #### Output: 
 - 每一意图执行的app截图序列以及相关信息
