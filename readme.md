@@ -190,3 +190,17 @@ Windows/Mac系统都可以下载安装XnViewMP，用免费版即可
    - 获取上一步模型输出中的“next_action_text”字段，填入action_history（如果为第一步，则action_history=[]）
    - 获取rag知识填入rag_info（rag知识是测试意图纬度的，每个测试意图对应一段rag知识，没有则rag_info=[]）
  
+2. 运行函数 analyze_screenshot, 获取模型输出
+3. 根据模型输出，去进行操作
+```json
+{
+  "thought": "为了快速定位到目标歌曲的搜索结果，需点击搜索建议列表中与输入内容匹配的第一个选项“taylor swift love story”，该选项能直接引导至包含目标歌曲的结果页面，便于后续播放和查看详情。",
+  "next_action_text": "点击搜索建议列表中的第一个选项“taylor swift love story”，进入搜索结果页面。",
+  "action": {
+    "type": "click",
+    "point": [229, 123]
+  },
+  "confidence": 1.0
+}
+```
+   
