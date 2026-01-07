@@ -186,12 +186,12 @@ Windows/Mac系统都可以下载安装XnViewMP，用免费版即可
 
 1. 填写参数（intention：测试意图，screenshot_path_list：历史执行截图序列（包含当前页面），action_history：历史操作序列，rag_info：rag知识）
    - 填入intention
-   - 获取当前手机的截图的路径，填入screenshot_path_list
+   - 获取当前手机的截图的本地路径，填入screenshot_path_list
    - 获取上一步模型输出中的“next_action_text”字段，填入action_history（如果为第一步，则action_history=[]）
    - 获取rag知识填入rag_info（rag知识是测试意图纬度的，每个测试意图对应一段rag知识，没有则rag_info=[]）
  
 2. 运行函数 analyze_screenshot, 获取模型输出
-3. 根据模型输出，去进行操作
+3. 根据模型输出，去进行操作（如：[229, 123] 就是点击图片上 x 为229，y 为123的点，可以用XnViewMP移动光标来获取截图上的坐标点）
 ```json
 {
   "thought": "为了快速定位到目标歌曲的搜索结果，需点击搜索建议列表中与输入内容匹配的第一个选项“taylor swift love story”，该选项能直接引导至包含目标歌曲的结果页面，便于后续播放和查看详情。",
