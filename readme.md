@@ -115,6 +115,9 @@ Harmony涉及hdc的安装（作用与adb一致）
 9CN0223B01031784
 ```
 
+#### 测评
+详见android_automation
+
 ## Android
 #### Apk
 包含所有需要的android app的apk安装包
@@ -152,6 +155,9 @@ List of devices attached
 emulator-5554   device
 ```
 
+#### 测评
+详见android_automation
+
 ## IOS
 
 #### XnViewMP（用于坐标点确认）
@@ -166,3 +172,21 @@ Windows/Mac系统都可以下载安装XnViewMP，用免费版即可
 </p>
 </div>
 
+#### 测评
+因为ios无法像harmony/android进行自动化测评，需要人工拼接模型输入、获取模型输出以及操作手机
+
+主要方式为，运行android_automation中 core.ui_analyzer.py函数
+
+<div align="center">
+<p align="center">
+  <img src="llm_code_1.png"/>
+</p>
+</div>
+
+
+1. 填写参数（intention：测试意图，screenshot_path_list：历史执行截图序列（包含当前页面），action_history：历史操作序列，rag_info：rag知识）
+   - 填入intention
+   - 获取当前手机的截图的路径，填入screenshot_path_list
+   - 获取上一步模型输出中的“next_action_text”字段，填入action_history（如果为第一步，则action_history=[]）
+   - 获取rag知识填入rag_info（rag知识是测试意图纬度的，每个测试意图对应一段rag知识，没有则rag_info=[]）
+ 
