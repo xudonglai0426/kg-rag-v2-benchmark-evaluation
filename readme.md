@@ -108,7 +108,7 @@ app: 酷狗音乐
     <img src="traj.png"/>
 </div>
 
-输出文件(hdc/android自动生成，ios需要手动填写h：
+输出文件(hdc/android自动生成，ios需要手动填写：
 ```
 app_package/  
  └── intent_datetime/  
