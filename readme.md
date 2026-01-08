@@ -26,6 +26,8 @@
 intention: 搜索并播放Taylor Swift的Love Story，并查看歌曲的详细信息
 
 app: 酷狗音乐
+
+输入文件：
 ```json（input）
 {
     "intent_1": {
@@ -106,8 +108,51 @@ app: 酷狗音乐
     <img src="traj.png"/>
 </div>
 
+输出文件(hdc/android自动生成，ios需要手动填写h：
+```
+app_package/  
+ └── intent_datetime/  
+     ├── screenshots/  
+     │   ├── step_1.png  
+     │   ├── step_2.png  
+     │   └── ...  
+     ├── traj.json/  
+     └── execution.log  
+```
+app_package: qq音乐
+intent_datetime: 搜索一首歌并播放_20260108
+
+traj.json:
 ```json（output）
 {
+  "trajectory": [
+    {
+      "step_number": 1,
+      "screenshot": "screenshots/results/com.kugou.android/2025_12_16_15_33_14/查看个人收藏夹的信息_20251216_154811/screenshots/step_1.png",
+      "action": {
+        "thought": "要查看个人收藏夹信息，需先进入个人中心页面。当前页面底部导航栏最右侧为“我的”按钮，点击该按钮可进入个人中心，进而找到收藏夹入口。",
+        "next_action_text": "点击页面底部导航栏最右侧的“我的”图标，进入个人中心页面。",
+        "action": "click(point='<point>900 910</point>')",
+        "confidence": 0.95,
+        "parsed_action": [   ## 调用UIAnalyzer.parsed_action直接生成
+          {
+            "reflection": null,
+            "thought": null,
+            "action_type": "click",
+            "action_inputs": {
+              "start_box": "[0.9, 0.91, 0.9, 0.91]"
+            },
+            "text": "click(start_box='(900,910)')"
+          }
+        ]
+      }
+    },
+    {
+        "step_number": 2,
+        ...
+    },
+...
+  ]
 }
 ```
 
