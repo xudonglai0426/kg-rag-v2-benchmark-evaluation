@@ -5,6 +5,16 @@
 - intention: https://drive.google.com/drive/folders/1ozPXt2nbKEPCQ8Zo4Hdb-WtsMawN0waI?usp=sharing
 - android_automation: https://github.com/xudonglai0426/android_automation
 
+## 测评范围
+#### app
+- android: 所有apk涉及的38个app
+- harmony: 所有标注的5-10个app
+- ios: 音乐垂类的3个app
+
+#### model
+- gpt-4o/gemini/Claude
+- doubao-vision-1.6, qwen3-vl, ui-tars, ui-tars-1.5
+
 ## Inputs/Outputs:
 #### Input: 
 - 一批意图以及一个常用的app
@@ -15,7 +25,7 @@
 #### Examples:
 intention: 搜索并播放Taylor Swift的Love Story，并查看歌曲的详细信息
 
-app: 酷狗 音乐
+app: 酷狗音乐
 ```json（input）
 {
     "intent_1": {
