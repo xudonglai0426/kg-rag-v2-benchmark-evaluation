@@ -129,7 +129,7 @@ traj.json:
     {
       "step_number": 1,
       "screenshot": "screenshots/results/com.kugou.android/2025_12_16_15_33_14/查看个人收藏夹的信息_20251216_154811/screenshots/step_1.png",
-      "action": {
+      "action": {   ## 调用UIAnalyzer.analyze_screenshot直接生成
         "thought": "要查看个人收藏夹信息，需先进入个人中心页面。当前页面底部导航栏最右侧为“我的”按钮，点击该按钮可进入个人中心，进而找到收藏夹入口。",
         "next_action_text": "点击页面底部导航栏最右侧的“我的”图标，进入个人中心页面。",
         "action": "click(point='<point>900 910</point>')",
