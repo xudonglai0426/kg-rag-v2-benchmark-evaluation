@@ -198,7 +198,7 @@ Windows/Mac系统都可以下载安装XnViewMP，用免费版即可
    - 填入intention
    - 获取当前手机的截图的本地路径，填入screenshot_path_list
    - 获取上一步模型输出中的“next_action_text”字段，填入action_history（如果为第一步，则action_history=[]）
-   - 获取rag知识填入rag_info（rag知识是测试意图纬度的，每个测试意图对应一段rag知识，没有则rag_info=[]）
+   - 获取rag知识填入rag_info（rag知识是测试意图维度的，每个测试意图对应一段rag知识，没有则rag_info=[]）
  
 2. 运行函数 analyze_screenshot, 获取模型输出
 3. 根据模型输出，去进行操作（如：[229, 123] 就是点击图片上 x 为229，y 为123的点，可以用XnViewMP移动光标来获取截图上的坐标点）
