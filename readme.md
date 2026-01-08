@@ -106,6 +106,10 @@ app: 酷狗音乐
     <img src="traj.png"/>
 </div>
 
+```json（output）
+{
+}
+```
 
 ## Notes
 - android app 通过apk安装，harmony/ios直接在应用市场安装就行
