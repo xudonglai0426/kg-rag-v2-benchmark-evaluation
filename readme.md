@@ -125,6 +125,9 @@ intent_datetime: 搜索一首歌并播放_20260108
 traj.json:
 ```json（output）
 {
+  "metadata":{
+    "success": true # traj是否正确
+},
   "trajectory": [
     {
       "step_number": 1,
