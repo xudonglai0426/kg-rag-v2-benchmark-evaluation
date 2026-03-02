@@ -8,12 +8,12 @@
 ## 测评范围
 #### app
 - android: 所有apk涉及的38个app
-- harmony: 所有标注的5-10个app
+- harmony: 所有标注的10个app
 - ios: 音乐垂类的3个app
 
 #### model
 - gpt-4o/gemini/Claude
-- doubao-vision-1.6, qwen3-vl, ui-tars, ui-tars-1.5
+- doubao-vision-1.6, qwen3-vl，doubao-2.0
 
 ## Inputs/Outputs:
 #### Input: 
