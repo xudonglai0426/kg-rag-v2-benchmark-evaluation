@@ -12,8 +12,8 @@
 - ios: 音乐垂类的3个app
 
 #### model
-- gpt-4o/gemini/Claude
-- doubao-vision-1.6, qwen3-vl，doubao-2.0
+- gemini-3-pro-preview/claude-sonnet-4.5/gpt-5.2
+- doubao-seed-1-6-vision-250815, doubao-seed-2-0-pro-260215，qwen3-vl-235b-a22b-instruct
 
 ## Inputs/Outputs:
 #### Input: 
